@@ -51,7 +51,7 @@ addpath('src')
 ## Defining Problem data
 To follow the general FEM procedure, you should first create a vector describing the domain of the problem, namely, the coordinates of each node and the connections between them. 
 
-![Truss Example 3.2](images\3.2_example_intro\EX3.2-Hutton.png)
+![Truss Example 3.2](images/3.2_example_intro/EX3.2-Hutton.png)
 
 ```
 Name = "Example 3.2 - Hutton";
@@ -127,7 +127,7 @@ epsilon =                sigma =
 0.282   0.133  
 ```
 
-![3.2 PLot](images\3.2_example_intro\3.2fig.png)
+![3.2 PLot](images/3.2_example_intro/3.2fig.png)
 
 
 # References

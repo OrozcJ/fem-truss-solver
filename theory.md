@@ -231,6 +231,7 @@ $$
 \begin{bmatrix} -c_x & -c_y & -c_z & c_x & c_y & c_z \end{bmatrix}
 \begin{Bmatrix} U_{3i-2} \\ U_{3i-1} \\ U_{3i} \\ U_{3j-2} \\ U_{3j-1} \\ U_{3j} \end{Bmatrix}
 $$
+
 A positive result indicates tension, negative indicates compression. The internal axial force follows directly:
 
 $$

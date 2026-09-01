@@ -152,7 +152,7 @@ i.e. each element contributes additively to the degrees of freedom in its transf
 The full system, before boundary conditions, is
 
 $$
-\{ F \} = [K] \{ U \}
+{ F } = [K] { U }
 $$
 
 where $\{F\}$ is the global load vector and $\{U\}$ the global displacement vector, both of length $2n$ (2D) or $3n$ (3D) for $n$ nodes.

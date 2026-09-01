@@ -12,7 +12,7 @@ A MATLAB package with functions to Solve 3D and 2D Truss structures.
 
 The following library groups a set of functions useful for **Finite Element Method** with springs and bar elements, making it easier to automate the process while following the general **FEM** procedure. 
 
-This project was intended as a way to apply the theory and computational approach of the **FEM** building it from scratch.  Considering the limitations of **truss elements** and the assumptions made during the formulation as seen in the theory file, this is an academic project solver and should only be used to analyze 2D or 3D truss structures under static conditions. 
+This project was intended as a way to apply the theory and computational approach of the **FEM** building it from scratch.  Considering the limitations of **truss elements** and the assumptions made during the formulation as seen in the theory file, this is an academic project solver and should only be used to analyze 2D or 3D truss structures under static conditions. There is a more detailed explanation and the mathematical formulations described in [the theory file](theory.md)
 
 # Features
 

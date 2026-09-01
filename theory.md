@@ -10,7 +10,7 @@ A truss (pin-jointed bar) element carries axial load only. Consider a single bar
 
 Treating the bar as a linear spring of stiffness $AE/L$, the local element stiffness matrix relates local nodal forces to local nodal displacements:
 
-![localimage](images\local_el.jpg)
+![localimage](images/local_el.jpg)
 $$
 \begin{Bmatrix} f_1 \\ f_2 \end{Bmatrix}
 = \frac{AE}{L}
@@ -38,7 +38,7 @@ c = \cos\theta = \frac{x_j - x_i}{L}, \qquad
 s = \sin\theta = \frac{y_j - y_i}{L}, \qquad
 L = \sqrt{(x_j-x_i)^2 + (y_j-y_i)^2}
 $$
-![global_2D](images\notation.jpg)
+![global_2D](images/notation.jpg)
 Each node has two global displacement components. For a truss with $n$ nodes, all global displacements are collected in a single vector $\{U\}$ of length $2n$, and node $i$'s pair of components sits at positions $2i-1$ and $2i$. $U_{2i-1}$ is the horizontal displacement of node $i$ and $U_{2i}$ its vertical displacement (likewise $U_{2j-1}, U_{2j}$ for node $j$). 
 
 These four entries, $\{U_{2i-1},\,U_{2i},\,U_{2j-1},\,U_{2j}\}$, are the global degrees of fredoom (DOF) of this particular element formalized in 4 entries as the element's **transformation vector** $\{L^{(e)}\}$.

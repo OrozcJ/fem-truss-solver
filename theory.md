@@ -41,6 +41,8 @@ L = \sqrt{(x_j-x_i)^2 + (y_j-y_i)^2}
 ```
 
 ![global_2D](images/notation.jpg)
+imagen tomada de [1]
+
 Each node has two global displacement components. For a truss with $n$ nodes, all global displacements are collected in a single vector $\{U\}$ of length $2n$, and node $i$'s pair of components sits at positions $2i-1$ and $2i$. $U_{2i-1}$ is the horizontal displacement of node $i$ and $U_{2i}$ its vertical displacement (likewise $U_{2j-1}, U_{2j}$ for node $j$). 
 
 These four entries, $\{U_{2i-1},\,U_{2i},\,U_{2j-1},\,U_{2j}\}$, are the global degrees of fredoom (DOF) of this particular element formalized in 4 entries as the element's **transformation vector** $\{L^{(e)}\}$.
@@ -282,4 +284,4 @@ This sequence is identical in structure for 2D and 3D trusses; the only differen
 
 ### Reference
 
-D. V. Hutton, *Fundamentals of Finite Element Analysis*, McGraw-Hill.
+[1] D. V. Hutton, *Fundamentals of Finite Element Analysis*, McGraw-Hill.

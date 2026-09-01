@@ -6,7 +6,7 @@ A MATLAB package with functions to Solve 3D and 2D Truss structures.
 
 **Note:** Licensed under MIT with a Commons Clause restriction, free to use and modify, but commercial use/resale requires prior consent. See [LICENSE](LICENSE.md) for details.
 
-![Opening image]("images\3.6\Figure_3_6.png")
+[Opening image](images\3.6\Figure_3_6.png)
 
 # Intro 
 

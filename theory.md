@@ -12,12 +12,12 @@ Treating the bar as a linear spring of stiffness $AE/L$, the local element stiff
 
 ![localimage](images/local_el.jpg)
 
-$$
+```math
 \begin{Bmatrix} f_1 \\ f_2 \end{Bmatrix}
 = \frac{AE}{L}
 \begin{bmatrix} 1 & -1 \\ -1 & 1 \end{bmatrix}
 \begin{Bmatrix} U_1^{(e)} \\ U_2^{(e)} \end{Bmatrix}
-$$
+```
 
 so the **local element stiffness matrix** is
 

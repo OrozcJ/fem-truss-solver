@@ -43,8 +43,10 @@ end
             else
                 plot(cd(:,1), cd(:,2), 'b-', 'LineWidth', 2,'HandleVisibility', 'off'); % Plot others elements, ignore the legend
             end
-            title(txttitle)
         end
+        title(txttitle);
+        xlabel("X");
+        ylabel("Y");
     else
         for e=1:numElements
             hold on; % Keep the current plot
@@ -58,8 +60,8 @@ end
             else
                 plot3(cd(:,3), -cd(:,1),cd(:,2), 'b-', 'LineWidth', 2,'HandleVisibility', 'off');
             end
-            title(txttitle)
         end
+        title(txttitle)
     end
 
 

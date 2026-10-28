@@ -1,4 +1,4 @@
-# T-SOLVER
+# Fem Truss Solver
 
 A MATLAB package with functions to Solve 3D and 2D Truss structures.
 

@@ -49,7 +49,7 @@ addpath('src')
 # Usage
 
 ## Defining Problem data
-To follow the general FEM procedure, you should first create a vector describing the domain of the problem, namely, the coordinates of each node and the connections between them. This Example is based on Example 3.2 from Kattan's Book. you can see more validation and examples ![here](examples/)
+To follow the general FEM procedure, you should first create a vector describing the domain of the problem, namely, the coordinates of each node and the connections between them. This Example is based on Example 3.2 from Kattan's Book. you can see more validation and examples ![here](examples/).
 
 ![Truss Example 3.2](images/3.2_example_intro/EX3.2-Hutton.png)
 

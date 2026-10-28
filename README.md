@@ -24,7 +24,7 @@ This project was intended as a way to apply the theory and computational approac
 - Strain/Stress post processing from previous results. 
 - Built-in visualization (`plotTruss`).
 
-# Function Reference
+# Function Reference (More Details on each function Code)
 
 | Function             | Description                                                                     | Inputs                                                                    | Outputs            |
 | -------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------ |
@@ -49,7 +49,7 @@ addpath('src')
 # Usage
 
 ## Defining Problem data
-To follow the general FEM procedure, you should first create a vector describing the domain of the problem, namely, the coordinates of each node and the connections between them. 
+To follow the general FEM procedure, you should first create a vector describing the domain of the problem, namely, the coordinates of each node and the connections between them. This Example is based and validated against the Example 3.2 from Kattan's Book. you can see more validation and examples ![here](examples/)
 
 ![Truss Example 3.2](images/3.2_example_intro/EX3.2-Hutton.png)
 
@@ -58,14 +58,15 @@ Name = "Example 3.2 - Hutton";
 connection_vec = [1 3; 2 3];
 crd = [0 0; 0 40; 40 40];
 ```
- After defining the Geometry of the problem the mechanical properties must be specified. 
+Remember that units must be consistent, in this case **lb** and **in**
+After defining the Geometry of the problem the mechanical properties must be specified. 
  
 ```
 L = [sqrt(2)*40 40];
 [stf, ke] = BarElStiffness([10e7 10e7] ,[1.5 1.5], L);
 ```
  
- Finally, define the Boundary conditions and the force vector following the node mapping convention. 
+Finally, define the Boundary conditions and the force vector following the node mapping convention. 
  
 ```
 active_vec = [0 0 0 0 1 1];
